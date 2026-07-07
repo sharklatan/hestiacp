@@ -1,6 +1,9 @@
 name: BATS testsuite
 
 on:
+  push:
+    branches:
+      - test-shark
   pull_request:
     types:
       - opened
